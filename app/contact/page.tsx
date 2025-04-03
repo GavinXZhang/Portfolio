@@ -38,7 +38,7 @@ export default function Contact() {
               Get in Touch
             </h1>
             <p className="text-lg text-gray-600 dark:text-gray-300">
-              I'm always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
+              I&apos;m always open to discussing new projects, creative ideas, or opportunities to be part of your visions.
             </p>
           </div>
 

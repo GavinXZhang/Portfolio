@@ -12,7 +12,7 @@ export default function AnimatedHero() {
       className="space-y-6"
     >
       <h1 className="text-4xl sm:text-6xl font-bold text-gray-900 dark:text-white">
-        Hi, I'm <span className="text-primary-600 dark:text-primary-400">Wei Xuan Zhang</span>
+        Hi, I&apos;m <span className="text-primary-600 dark:text-primary-400">Wei Xuan Zhang</span>
       </h1>
       <p className="text-xl sm:text-2xl text-gray-600 dark:text-gray-300 max-w-2xl mx-auto">
         Software Engineer specializing in building exceptional digital experiences

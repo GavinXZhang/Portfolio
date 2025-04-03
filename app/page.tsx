@@ -1,5 +1,3 @@
-import Link from 'next/link'
-import { motion } from 'framer-motion'
 import AnimatedHero from './components/AnimatedHero'
 
 export default function Home() {

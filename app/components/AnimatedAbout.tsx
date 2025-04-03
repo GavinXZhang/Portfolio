@@ -35,7 +35,7 @@ export default function AnimatedAbout() {
           About Me
         </h1>
         <p className="text-lg text-gray-600 dark:text-gray-300 mb-4">
-          I'm a passionate Software Engineer with a strong foundation in Computer Science
+          I&apos;m a passionate Software Engineer with a strong foundation in Computer Science
           and a deep interest in building scalable, user-centric applications. My journey
           in software development has been driven by a desire to create innovative solutions
           that make a real impact.
@@ -43,7 +43,7 @@ export default function AnimatedAbout() {
         <p className="text-lg text-gray-600 dark:text-gray-300">
           With experience in both frontend and backend development, I specialize in
           creating responsive, efficient web applications using modern technologies.
-          I'm particularly interested in cloud architecture, system design, and
+          I&apos;m particularly interested in cloud architecture, system design, and
           building performant user interfaces.
         </p>
       </motion.div>
