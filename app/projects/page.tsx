@@ -30,7 +30,7 @@ const projects = [
     description: 'Responsive portfolio built with Next.js, TypeScript, and Tailwind CSS, featuring dynamic project filtering, Firebase backend, blog/contact forms, SEO optimization, dark mode, and lazy loading.',
     image: '/project3.jpg',
     technologies: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Firebase', 'Vercel'],
-    github: 'https://github.com/yourusername/portfolio',
+    github: 'https://github.com/GavinXZhang/Portfolio',
     demo: 'https://your-portfolio.vercel.app',
     category: 'web'
   },
