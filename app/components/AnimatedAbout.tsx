@@ -106,7 +106,7 @@ export default function AnimatedAbout() {
               <li>Designed and implemented a save progress feature using React and Strapi, leading to a 20% increase in return users</li>
               <li>Developed a specialized decision tree application using MongoDB and Strapi for ALS patients</li>
               <li>Led Agile development with a team of 3 engineers, ensuring effective communication and goal-setting</li>
-              <li>Showcased the website at BU's Demo Day, attracting interest from over 100+ attendees</li>
+              <li>Showcased the website at BU&apos;s Demo Day, attracting interest from over 100+ attendees</li>
             </ul>
           </div>
 
