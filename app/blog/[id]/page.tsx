@@ -59,10 +59,9 @@ const blogPosts: Record<string, BlogPost> = {
 
 type Props = {
   params: { id: string }
-  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function BlogPost({ params, searchParams }: Props) {
+export default function BlogPost({ params }: Props) {
   const post = blogPosts[params.id]
 
   if (!post) {
