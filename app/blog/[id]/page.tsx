@@ -57,7 +57,13 @@ const blogPosts: Record<string, BlogPost> = {
   // Add more blog posts as needed
 }
 
-export default function BlogPost({ params }: { params: { id: string } }) {
+interface PageProps {
+  params: {
+    id: string;
+  };
+}
+
+export default async function BlogPost({ params }: PageProps) {
   const post = blogPosts[params.id]
 
   if (!post) {
