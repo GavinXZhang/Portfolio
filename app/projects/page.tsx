@@ -6,18 +6,18 @@ import { motion } from 'framer-motion'
 const projects = [
   {
     id: 1,
-    title: 'BU Market',
+    title: 'BU Market Place',
     description: 'Android marketplace app for BU students featuring dynamic UI with Stateful and Lazy Columns, Firebase integration, and Jetpack libraries. Improved app performance by 30% and increased user engagement by 25%.',
     image: '/project1.jpg',
     technologies: ['Kotlin', 'Android Studio', 'Firebase', 'Jetpack', 'Retrofit'],
-    github: 'https://github.com/yourusername/bu-market',
-    demo: 'https://bu-market-demo.com',
+    github: 'https://github.com/GavinXZhang/Bu-Market-Place',
+    demo: 'https://github.com/GavinXZhang/Bu-Market-Place',
     category: 'mobile'
   },
   {
     id: 2,
     title: 'AI Personal Assistant',
-    description: 'Personal productivity website using Django to track To-Do\'s and generate daily summaries using ChatGPT integration. Features 3 models (Event, Reminders, Call Logs) with CRUD operations.',
+    description: 'Personal productivity website using Django to track To-Do&apos;s and generate daily summaries using ChatGPT integration. Features 3 models (Event, Reminders, Call Logs) with CRUD operations.',
     image: '/project2.jpg',
     technologies: ['Django', 'Python', 'ChatGPT API', 'Heroku', 'PostgreSQL'],
     github: 'https://github.com/yourusername/ai-assistant',
@@ -36,11 +36,11 @@ const projects = [
   },
   {
     id: 4,
-    title: 'Daily Task Manager',
+    title: 'Task Manager',
     description: 'Full-stack task manager using React and Node.js, featuring secure Firebase authentication, optimized PostgreSQL queries, and Docker containerization. Deployed on GCP Cloud Run with CI/CD pipelines.',
     image: '/project4.jpg',
     technologies: ['React', 'Node.js', 'PostgreSQL', 'Docker', 'GCP', 'Firebase'],
-    github: 'https://github.com/GavinXZhang/Bu-Market-Place',
+    github: 'https://github.com/yourusername/task-manager',
     demo: 'https://task-manager-demo.com',
     category: 'web'
   }

@@ -106,7 +106,7 @@ export default function Contact() {
             </h2>
             <div className="flex justify-center space-x-6">
               <a
-                href="https://github.com/yourusername"
+                href="https://github.com/GavinXZhang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
@@ -121,7 +121,7 @@ export default function Contact() {
                 </svg>
               </a>
               <a
-                href="https://linkedin.com/in/yourusername"
+                href="https://linkedin.com/in/gavin-x-zhang"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
@@ -136,7 +136,7 @@ export default function Contact() {
                 </svg>
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:gwxzhang@bu.edu"
                 className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
               >
                 <span className="sr-only">Email</span>

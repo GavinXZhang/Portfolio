@@ -101,7 +101,7 @@ export default function AnimatedAbout() {
             <h3 className="text-lg font-semibold text-gray-900 dark:text-white">
               Software Engineer
             </h3>
-            <p className="text-gray-600 dark:text-gray-300">Boston Children's Hospital X BU Spark!, Boston, MA • Sep. 2023 - Dec. 2023</p>
+            <p className="text-gray-600 dark:text-gray-300">Boston Children&apos;s Hospital X BU Spark!, Boston, MA • Sep. 2023 - Dec. 2023</p>
             <ul className="mt-4 list-disc list-inside text-gray-600 dark:text-gray-300 space-y-2">
               <li>Designed and implemented a save progress feature using React and Strapi, leading to a 20% increase in return users</li>
               <li>Developed a specialized decision tree application using MongoDB and Strapi for ALS patients</li>

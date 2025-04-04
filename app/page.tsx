@@ -1,4 +1,5 @@
 import AnimatedHero from './components/AnimatedHero'
+import Image from 'next/image'
 
 export default function Home() {
   return (
@@ -23,32 +24,47 @@ export default function Home() {
             </p>
           </div>
           <div className="mt-16 grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
-            {/* Project cards will go here */}
+            {/* BU Market Place Project */}
             <div className="group relative bg-white dark:bg-gray-800 rounded-lg shadow-lg overflow-hidden">
               <div className="aspect-w-16 aspect-h-9 bg-gray-200 dark:bg-gray-700">
-                {/* Project image will go here */}
+                <Image
+                  src="/project1.jpg"
+                  alt="BU Market Place"
+                  layout="fill"
+                  objectFit="cover"
+                  className="group-hover:opacity-75 transition-opacity duration-300"
+                />
               </div>
               <div className="p-6">
                 <h3 className="text-lg font-medium text-gray-900 dark:text-white">
-                  Project Name
+                  BU Market Place
                 </h3>
                 <p className="mt-2 text-sm text-gray-600 dark:text-gray-300">
-                  Brief description of the project and its key features.
+                  Android marketplace app for BU students featuring dynamic UI with Stateful and Lazy Columns, Firebase integration, and Jetpack libraries.
                 </p>
                 <div className="mt-4 flex flex-wrap gap-2">
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200">
-                    React
+                    Kotlin
                   </span>
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200">
-                    TypeScript
+                    Android Studio
                   </span>
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-medium bg-primary-100 text-primary-800 dark:bg-primary-900 dark:text-primary-200">
-                    Tailwind CSS
+                    Firebase
                   </span>
+                </div>
+                <div className="mt-6">
+                  <a
+                    href="https://github.com/GavinXZhang/Bu-Market-Place"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-sm font-medium text-primary-600 dark:text-primary-400 hover:text-primary-500 dark:hover:text-primary-300"
+                  >
+                    View Project →
+                  </a>
                 </div>
               </div>
             </div>
-            {/* Add more project cards as needed */}
           </div>
         </div>
       </section>
