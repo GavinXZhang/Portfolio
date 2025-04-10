@@ -21,7 +21,7 @@ export default function AnimatedHero() {
               <h1 className="text-4xl sm:text-6xl font-bold text-black">
                 <TypeAnimation
                   sequence={[
-                    'Hello there! My name is Wei Xuan Zhang.',
+                    'Hello there! My name is Gavin Zhang.',
                     2000,
                   ]}
                   wrapper="span"
