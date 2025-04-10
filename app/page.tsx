@@ -146,7 +146,7 @@ export default function Home() {
                     <div className="text-xl font-bold text-gray-900">AI Personal Assistant</div>
                   </div>
                   <div className="text-gray-600">
-                    <p className="mt-1">Developed a personal productivity website using Django to track my To-Do's and generate a summary of my day using ChatGPT integration. Designed 3 models (Event, Reminders, and Call Logs) with respective forms for CRUD operations. Deployed application onto Heroku for live accessibility.</p>
+                    <p className="mt-1">Developed a personal productivity website using Django to track my To-Do&apos;s and generate a summary of my day using ChatGPT integration. Designed 3 models (Event, Reminders, and Call Logs) with respective forms for CRUD operations. Deployed application onto Heroku for live accessibility.</p>
                     <div className="mt-4">
                       <a
                         href="#"
