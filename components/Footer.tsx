@@ -1,6 +1,6 @@
 export default function Footer() {
   return (
-    <footer className="bg-white dark:bg-gray-900 border-t border-gray-200 dark:border-gray-800">
+    <footer className="bg-white border-t border-gray-200">
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col items-center justify-center space-y-4">
           <div className="flex space-x-6">
@@ -8,7 +8,7 @@ export default function Footer() {
               href="https://github.com/GavinXZhang"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+              className="text-gray-600 hover:text-gray-900"
             >
               <span className="sr-only">GitHub</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -23,7 +23,7 @@ export default function Footer() {
               href="https://linkedin.com/in/gavin-x-zhang"
               target="_blank"
               rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+              className="text-gray-600 hover:text-gray-900"
             >
               <span className="sr-only">LinkedIn</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -36,7 +36,7 @@ export default function Footer() {
             </a>
             <a
               href="mailto:gwxzhang@bu.edu"
-              className="text-gray-400 hover:text-gray-500 dark:hover:text-gray-300"
+              className="text-gray-600 hover:text-gray-900"
             >
               <span className="sr-only">Email</span>
               <svg className="h-6 w-6" fill="currentColor" viewBox="0 0 24 24">
@@ -53,7 +53,7 @@ export default function Footer() {
               </svg>
             </a>
           </div>
-          <p className="text-center text-sm text-gray-500 dark:text-gray-400">
+          <p className="text-center text-sm text-gray-600">
             © {new Date().getFullYear()} Wei Xuan Zhang. All rights reserved.
           </p>
         </div>
