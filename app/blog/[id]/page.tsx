@@ -58,7 +58,6 @@ const blogPosts: Record<string, BlogPost> = {
 }
 
 // Define the correct type for Next.js App Router page props
-// @ts-ignore - Ignoring the type constraint for Next.js page props
 type PageProps = {
   params: { id: string }
   searchParams: { [key: string]: string | string[] | undefined }
