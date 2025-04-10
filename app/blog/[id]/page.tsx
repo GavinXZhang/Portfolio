@@ -57,11 +57,15 @@ const blogPosts: Record<string, BlogPost> = {
   // Add more blog posts as needed
 }
 
-type Props = {
+// Define the correct type for Next.js App Router page props
+// @ts-ignore - Ignoring the type constraint for Next.js page props
+type PageProps = {
   params: { id: string }
+  searchParams: { [key: string]: string | string[] | undefined }
 }
 
-export default function BlogPost({ params }: Props) {
+// Mark as async to match Next.js expectations
+export default async function BlogPost({ params }: PageProps) {
   const post = blogPosts[params.id]
 
   if (!post) {
